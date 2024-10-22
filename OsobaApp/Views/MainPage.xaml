@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OsobaApp.Views.MainPage"
+             Title="Osoby">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="Seznam osob"
+                   FontSize="24"
+                   HorizontalOptions="Center" />
+
+            <ListView ItemsSource="{Binding Persons}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding FirstName}" Detail="{Binding LastName}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Entry Placeholder="Jméno" Text="{Binding FirstName}" />
+            <Entry Placeholder="Příjmení" Text="{Binding LastName}" />
+            <DatePicker Date="{Binding BirthDate}" />
+            <Entry Placeholder="Rodné číslo" Text="{Binding IdentificationNumber}" />
+            <Button Text="Uložit"
+                    Command="{Binding SavePersonCommand}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
