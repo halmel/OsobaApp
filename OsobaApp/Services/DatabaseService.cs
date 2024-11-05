@@ -104,5 +104,16 @@ namespace OsobaApp.Services
 
             return persons;
         }
+        public async void Delete()
+        {
+            var persons = new List<Person>();
+
+            using var connection = new SqliteConnection($"Data Source={_databasePath}");
+            await connection.OpenAsync();
+
+            var selectCommand = connection.CreateCommand();
+            selectCommand.CommandText = "DELETE FROM Persons";
+            await selectCommand.ExecuteNonQueryAsync();
+        }
     }
 }

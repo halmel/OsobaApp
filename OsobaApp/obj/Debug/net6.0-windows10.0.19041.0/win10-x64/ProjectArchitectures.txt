@@ -1,1 +1,1 @@
-C:\Users\halmel.ji.2021\source\repos\OsobaApp\OsobaApp\OsobaApp.csproj;x64
+C:\Users\halmel.ji.2021\Source\Repos\halmel\OsobaApp\OsobaApp\OsobaApp.csproj;x64

@@ -8,5 +8,6 @@ namespace OsobaApp.Services
     {
         Task AddPersonAsync(Person person);
         Task<List<Person>> GetPersonsAsync();
+        void Delete();
     }
 }

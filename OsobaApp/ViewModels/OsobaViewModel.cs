@@ -82,6 +82,7 @@ namespace OsobaApp.ViewModels
 
             await _databaseService.AddPersonAsync(person);
             // Zde můžeš zobrazit, že osoba byla úspěšně přidána
+            LoadPersons();
         }
 
         protected void OnPropertyChanged([CallerMemberName] string name = null)

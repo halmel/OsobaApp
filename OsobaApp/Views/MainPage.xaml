@@ -9,10 +9,17 @@
                    FontSize="24"
                    HorizontalOptions="Center" />
 
-            <ListView ItemsSource="{Binding Persons}">
+            <ListView ItemsSource="{Binding Persons}"  RowHeight="120">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding FirstName}" Detail="{Binding LastName}" />
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="{Binding FirstName}" LineBreakMode="WordWrap"/>
+                                <Label Text="{Binding LastName}" LineBreakMode="WordWrap"/>
+                                <Label Text="{Binding BirthDate}" LineBreakMode="WordWrap"/>
+                                <Label Text="{Binding IdentificationNumber}" LineBreakMode="WordWrap"/>
+                            </StackLayout>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

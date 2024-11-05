@@ -28052,11 +28052,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\halmel.ji.2021\\source\\repos\\OsobaApp\\OsobaApp\\OsobaApp.csproj",
+      "projectUniqueName": "C:\\Users\\halmel.ji.2021\\Source\\Repos\\halmel\\OsobaApp\\OsobaApp\\OsobaApp.csproj",
       "projectName": "OsobaApp",
-      "projectPath": "C:\\Users\\halmel.ji.2021\\source\\repos\\OsobaApp\\OsobaApp\\OsobaApp.csproj",
+      "projectPath": "C:\\Users\\halmel.ji.2021\\Source\\Repos\\halmel\\OsobaApp\\OsobaApp\\OsobaApp.csproj",
       "packagesPath": "C:\\Users\\halmel.ji.2021\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\halmel.ji.2021\\source\\repos\\OsobaApp\\OsobaApp\\obj\\",
+      "outputPath": "C:\\Users\\halmel.ji.2021\\Source\\Repos\\halmel\\OsobaApp\\OsobaApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l5nV1neeCoHr3rF6Ybj3YxEtxPG7/tcOWK0BlikXyd4T9/LvLVXED3+CTPiqj6qV2V3tD1YmEnH1niVx0EoebQ==",
+  "dgSpecHash": "WVzNdcdXCT2Y078CLW4RkEFEvULV8+1fbrmTPj6gjsqoG8QUR9hC0xKO5CDQKoyTa7HBe589xlZl7pti/kZ+1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\halmel.ji.2021\\source\\repos\\OsobaApp\\OsobaApp\\OsobaApp.csproj",
+  "projectFilePath": "C:\\Users\\halmel.ji.2021\\Source\\Repos\\halmel\\OsobaApp\\OsobaApp\\OsobaApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\halmel.ji.2021\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\halmel.ji.2021\\.nuget\\packages\\microsoft.data.sqlite\\8.0.10\\microsoft.data.sqlite.8.0.10.nupkg.sha512",
